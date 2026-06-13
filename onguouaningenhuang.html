@@ -1,0 +1,1103 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="使用人工智能工具生成 Python 脚本">
+      
+      
+        <meta name="author" content="Serge Tahé">
+      
+      
+        <link rel="canonical" href="https://stahe.github.io/zh-python-ia-sept-2025/onguouaningenhuang.html">
+      
+      
+        <link rel="prev" href="uoaniueaneeniiiieuo.html">
+      
+      
+        <link rel="next" href="hiong-google-gemini-ieueaneeni.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>3. 工作环境的安装 - 使用人工智能工具生成 Python 脚本</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBZC3JVJNR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    var siteName = "使用人工智能工具生成 Python 脚本";
+    gtag('config', 'G-EBZC3JVJNR', {
+        'page_title': siteName
+    });
+  </script>
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="使用人工智能工具生成 Python 脚本" class="md-header__button md-logo" aria-label="使用人工智能工具生成 Python 脚本" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            使用人工智能工具生成 Python 脚本
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3. 工作环境的安装
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="purple"  aria-label="切换至深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换至深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="purple"  aria-label="切换至浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换至浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://stahe.github.io/zh-python-ia-sept-2025" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="使用人工智能工具生成 Python 脚本" class="md-nav__button md-logo" aria-label="使用人工智能工具生成 Python 脚本" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    使用人工智能工具生成 Python 脚本
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://stahe.github.io/zh-python-ia-sept-2025" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欢迎
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ianie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. 简介
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uoaniueaneeniiiieuo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. 所研究的三个问题及其结果
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. 工作环境的安装
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="onguouaningenhuang.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. 工作环境的安装
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-python-3137" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Python 3.13.7
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-ide-pycharm-community" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. IDE PyCharm Community
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hiong-google-gemini-ieueaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. 使用 Google Gemini 解决三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hiong-chatgpt-ieueaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. 使用 ChatGPT 解决三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hiong-grok-ieueheaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. 使用 Grok 解决这三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hiongclaudeaiieueaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. 使用ClaudeAI解决三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hiong-mistralai-ieueaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. 使用 MistralAI 解决三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="onguo-deepseek-ieueheaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. 通过 DeepSeek 解决这三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hiongperplexityieueaneeni.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. 使用Perplexity解决三个问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ieun.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. 结论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><span id="toc48548915" name="toc48548915" class="odt-bookmark-anchor"></span>
+<span id="refheading382362423505" name="refheading382362423505" class="odt-bookmark-anchor"></span></p>
+<h1 id="3">3. <span style="color: #0f4761">工作环境的安装</span></h1>
+<p>本文将介绍用于测试由IA生成的Python脚本的工作环境。本段内容面向Python初学者。如果您已经拥有Python工作环境，请直接跳过本段，转至<a href="hiong-google-gemini-ieueaneeni.html#resolutiondestrois"><u><span style="color: #0563c1">下一段</span></u></a>。</p>
+<p><span id="toc48548916" name="toc48548916" class="odt-bookmark-anchor"></span>
+<span id="refheading382382423505" name="refheading382382423505" class="odt-bookmark-anchor"></span>
+<span id="python381" name="python381" class="odt-bookmark-anchor"></span></p>
+<h2 id="31-python-3137">3.1. <span style="color: #0f4761">Python 3.13.7</span></h2>
+<p>本文中的示例已在 Windows 10 系统上，使用 URL |<a href="https://www.python.org/downloads/"><u><span style="color: #0563c1">https://www.python.org/downloads/</span></u></a>|（2025 年 8 月）提供的 Python 3.13.7 解释器进行过测试：</p>
+<p><img src="images/10000000000003C30000033E1D776723.png" width="385" height="332" style="width:10.19cm;height:8.781cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000003C30000033E1D776723.png" /></p>
+<p>请下载 Python 安装程序的可执行文件，然后运行它。</p>
+<p>Python 安装后将生成以下文件目录结构：</p>
+<p><img src="images/10000000000001790000021364FBC309.png" width="201" height="283" style="width:5.32cm;height:7.489cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001790000021364FBC309.png" /></p>
+<p>要以交互模式运行 Python，请双击 [2]。以下是一个可运行的 Python 代码示例：</p>
+<p><img src="images/100000000000019F000000D1975BB901.png" width="221" height="111" style="width:5.86cm;height:2.949cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000019F000000D1975BB901.png" /></p>
+<p>在提示符 &gt;&gt;&gt; 下输入 Python 指令，系统会立即执行。上述代码的含义如下：</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">nom</span><span class="o">=</span><span class="s2">&quot;tintin&quot;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;nom=</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">nom</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">nom</span><span class="o">=</span><span class="n">tintin</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;type=</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="nb">type</span><span class="p">(</span><span class="n">nom</span><span class="p">))</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="nb">type</span><span class="o">=&lt;</span><span class="k">class</span><span class="w"> </span><span class="err">&#39;</span><span class="nc">str</span><span class="s1">&#39;&gt;</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="o">&gt;&gt;&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p><strong>行</strong>：</p>
+<ul>
+  <li>1：变量初始化。在 Python 中，变量无需显式声明类型。变量会自动采用其赋值的类型。该类型可能会随时间变化；
+  </li>
+  <li>2：显示名称。&#x27;nom=%s&#x27; 是一种显示格式，其中 %s 是表示字符串的格式参数。<i>nom </i>是实际参数，将代替 %s 显示；
+  </li>
+  <li>3：显示结果；
+  </li>
+  <li>4：变量 <i>nom</i> 的类型显示<i>；</i>
+  </li>
+  <li>5：此处变量 nom 的类型为 <i>class</i>。在 Python 2.7 中，其类型将显示为 <i>&lt;type &#x27;str&#x27;&gt;</i>；
+  </li>
+</ul>
+
+<p>现在，我们打开一个 Windows 控制台：</p>
+<p><img src="images/1000000000000448000000DC8C8ABD0C.png" width="586" height="118" style="width:15.499cm;height:3.11cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000448000000DC8C8ABD0C.png" /></p>
+<p>我们能够输入 <strong>[python]</strong> 并将其替换为 <strong>[1]</strong>，且可执行文件 <strong>[python.exe]</strong> 已被找到，这表明该文件位于 Windows 机器的 PATH 目录中。 这一点很重要，因为这意味着Python开发工具能够找到Python解释器。可以通过以下方式进行验证：</p>
+<p><img src="images/100000000000052F000001AB84273FD6.png" width="680" height="219" style="width:17.999cm;height:5.791cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000052F000001AB84273FD6.png" /></p>
+<ul>
+  <li>在 <b>[1] </b>中，我们退出 Python 解释器；
+  </li>
+  <li>在 <b>[2] </b>中，该命令显示了 Windows 机器上可执行文件的 PATH；
+  </li>
+  <li>在 <b>[3] </b>中，可以看到 Python 3.13 解释器的文件夹属于 PATH；
+  </li>
+</ul>
+
+<p><span id="toc48548917" name="toc48548917" class="odt-bookmark-anchor"></span>
+<span id="refheadingtoc2520872924280206" name="refheadingtoc2520872924280206" class="odt-bookmark-anchor"></span>
+<span id="lidepycharmcommunity" name="lidepycharmcommunity" class="odt-bookmark-anchor"></span></p>
+<h2 id="32-ide-pycharm-community">3.2. <span style="color: #0f4761">IDE PyCharm Community</span></h2>
+<p>为了构建和运行本文档中的脚本，我们使用了 <strong>[PyCharm]</strong> Community 版编辑器（2025 年 8 月发布），可在 URL |<a href="https://www.jetbrains.com/fr-fr/pycharm/download/%23section=windows"><u><span style="color: #0563c1">https://www.jetbrains.com/fr-fr/pycharm/download/# 获取</span></u></a>section=windows| :</p>
+<p><img src="images/1000000000000350000003B6768D2593.png" width="339" height="380" style="width:8.98cm;height:10.059cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000350000003B6768D2593.png" /></p>
+<p><img src="images/1000000000000205000000F0EAD6AAD0.png" width="207" height="96" style="width:5.47cm;height:2.54cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000205000000F0EAD6AAD0.png" /></p>
+<p>下载 IDE、PyCharm Community（此处为 Windows 版）和 <strong>[1-4]</strong>，并进行安装。</p>
+<p>启动 IDE PyCharm。此时将出现一个控制面板：</p>
+<p><img src="images/10000000000002E40000022D33F53C1C.png" width="296" height="223" style="width:7.84cm;height:5.9cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002E40000022D33F53C1C.png" /></p>
+<ul>
+  <li>在 [1] 中创建桌面图标 PyCharm；
+  </li>
+  <li>在 [2] 中，可将文件系统中的任意文件夹作为 Python 项目打开；
+  </li>
+  <li>选择 [3]，Python 文件将带有 .py 后缀；
+  </li>
+  <li>在 [4] 中，进入下一步；
+  </li>
+</ul>
+
+<p>下一个窗口再次提供 [1] 配置：</p>
+<p><img src="images/10000000000004370000039D9F52BCA9.png" width="430" height="369" style="width:11.37cm;height:9.751cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004370000039D9F52BCA9.png" /></p>
+<ul>
+  <li>在 [2] 中，选择主题 [Light]。用户可自行选择主题；
+  </li>
+  <li>在 [3] 中，保留英文版 IDE；
+  </li>
+  <li>在 [4] 中，保留 Windows 的快捷键；
+  </li>
+</ul>
+
+<p>创建第一个 Python 项目 [1-2]：</p>
+<p><img src="images/100000000000056A0000020AC0E6D732.png" width="460" height="173" style="width:12.16cm;height:4.581cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000056A0000020AC0E6D732.png" /></p>
+<p>这将打开以下窗口：</p>
+<p><img src="images/1000000000000770000003F35F07ECD2.png" width="680" height="361" style="width:17.999cm;height:9.557cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000770000003F35F07ECD2.png" /></p>
+<ul>
+  <li>在 [2] 中，指定要为该项目创建的文件夹名称；
+  </li>
+  <li>在 [3] 中，指定将要保存的代码的不同版本将由 Git 版本控制管理。PyCharm 允许使用其他版本控制；
+  </li>
+  <li>在 [4-6] 中，指定您的项目将使用虚拟环境。虚拟环境将在项目根目录下创建一个名为 [.venv] 的文件夹。 项目使用的所有插件（包）都将放置在此文件夹中。这确保了在搜索插件时项目之间的隔离。项目仅在其自身的虚拟环境 [.venv] 中搜索插件，而不会在其他地方搜索——因为其他地方可能存在同名但版本不同的插件，这些插件之间有时会存在部分不兼容性；
+  </li>
+</ul>
+
+<p>IDE PyCharm 以以下形式展示所创建的项目：</p>
+<p><img src="images/1000000000000231000001339349AD15.png" width="187" height="102" style="width:4.949cm;height:2.709cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000231000001339349AD15.png" /></p>
+<ul>
+  <li>在 [1-2] 中，显示项目目录结构；
+  </li>
+  <li>在 [3] 中，是项目文件夹；
+  </li>
+  <li>在 [4] 中，是项目的虚拟环境文件夹。我们将用于该项目的插件将安装在此文件夹中；
+  </li>
+</ul>
+
+<p>在开始编码之前，让我们进一步配置 IDE：</p>
+<p><img src="images/100000000000014B000000C3A5AE436A.png" width="177" height="104" style="width:4.671cm;height:2.75cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000014B000000C3A5AE436A.png" /></p>
+<ul>
+  <li>点击 [1] 以显示主菜单；
+  </li>
+</ul>
+
+<p><img src="images/10000000000001DB00000206601EF987.png" width="190" height="207" style="width:5.031cm;height:5.48cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001DB00000206601EF987.png" /></p>
+<ul>
+  <li>在 [1-2] 中，配置 IDE；
+  </li>
+</ul>
+
+<p><img src="images/10000000000003F7000002C8C9A0B9F5.png" width="406" height="285" style="width:10.749cm;height:7.541cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000003F7000002C8C9A0B9F5.png" /></p>
+<ul>
+  <li>在 [1-4] 中，指定希望将主菜单显示在主工具栏上方。这并非强制要求。此处这样做是为了便于说明本文档中生成的屏幕截图。确认更改；
+  </li>
+</ul>
+
+<p>现在，主菜单将始终显示 [1]：</p>
+<p><img src="images/100000000000033F00000164BC5ACCBA.png" width="333" height="142" style="width:8.8cm;height:3.769cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000033F00000164BC5ACCBA.png" /></p>
+<p>继续配置 IDE：</p>
+<p><img src="images/1000000000000120000000ABAB5ED904.png" width="115" height="68" style="width:3.05cm;height:1.81cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000120000000ABAB5ED904.png" /></p>
+<p>在 PyCharm 窗口的右上角，系统建议您试用 PyCharm 的专业版。 根据您安装 PyCharm 的方式，专业版（2025）甚至可能已被默认安装。这将带来额外的菜单选项。</p>
+<p><img src="images/10000000000000F700000097DDBD158B.png" width="99" height="60" style="width:2.619cm;height:1.6cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000000F700000097DDBD158B.png" /></p>
+<p>如果您安装了为期一个月的专业版试用版，屏幕右上角会显示 [2] 提示。</p>
+<p>为了保持后续截图的一致性，我将演示如何取消 IDE 的专业版试用（您可以随时恢复试用）：</p>
+<p><img src="images/100000000000022100000385F580CE40.png" width="218" height="361" style="width:5.77cm;height:9.541cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000022100000385F580CE40.png" /></p>
+<ul>
+  <li>在 [1-2] 中，管理您的 IDE 订阅；
+  </li>
+</ul>
+
+<p><img src="images/10000000000004660000017297512600.png" width="449" height="147" style="width:11.869cm;height:3.9cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004660000017297512600.png" /></p>
+<ul>
+  <li>在 [1] 中，停用专业版。IDE 将重新启动；
+  </li>
+</ul>
+
+<p>现在，让我们配置将用于运行我们项目的 Python 解释器。我们记得在之前的步骤中下载过一个：</p>
+<p><img src="images/10000000000001B10000021D45A1E9E0.png" width="173" height="217" style="width:4.59cm;height:5.731cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001B10000021D45A1E9E0.png" /></p>
+<p><img src="images/10000000000005BB0000014E06FF13F7.png" width="583" height="133" style="width:15.42cm;height:3.51cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000005BB0000014E06FF13F7.png" /></p>
+<ul>
+  <li>在 [1-3] 中，我们配置项目的 Python 解释器；
+  </li>
+  <li>在 [4] 中，配置解释器的路径；
+  </li>
+  <li>在 [5] 中，配置与该解释器关联的包（插件）；
+  </li>
+</ul>
+
+<p>在 [4] 中，让我们查看所用解释器的完整路径：</p>
+<p><img src="images/100000000000043900000135000327CB.png" width="434" height="124" style="width:11.471cm;height:3.281cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000043900000135000327CB.png" /></p>
+<p><img src="images/100000000000049C000000CACC2BB23E.png" width="475" height="81" style="width:12.561cm;height:2.15cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000049C000000CACC2BB23E.png" /></p>
+<ul>
+  <li>在 [3] 中，发现所使用的 Python 解释器位于项目虚拟环境的文件夹 [.venv] 中；
+  </li>
+</ul>
+
+<p>可以更换 Python 解释器，这可能会改变项目中可用的插件：</p>
+<p><img src="images/10000000000005BC00000132A5AE6115.png" width="680" height="142" style="width:18cm;height:3.75cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000005BC00000132A5AE6115.png" /></p>
+<ul>
+  <li>在 [4] 中，添加一个 Python 解释器；
+  </li>
+</ul>
+
+<p><img src="images/1000000000000148000000870B78F0AD.png" width="131" height="54" style="width:3.47cm;height:1.431cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000148000000870B78F0AD.png" /></p>
+<ul>
+  <li>在 [5] 中，添加一个本地解释器。PyCharm 随后将遍历该机器上的 PATH，以查找二进制文件 [python.exe]；
+  </li>
+</ul>
+
+<p><img src="images/1000000000000303000000FE56F037D4.png" width="309" height="102" style="width:8.17cm;height:2.69cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000303000000FE56F037D4.png" /></p>
+<ul>
+  <li>在 [1] 中，指定新解释器应使用项目中现有的 [.venv] 虚拟环境；
+  </li>
+  <li>在 [2] 中，IDE 建议使用之前步骤中安装的 Python 应用程序作为解释器；
+  </li>
+  <li>确认此选择；
+  </li>
+</ul>
+
+<p><img src="images/100000000000051B0000027361660D7E.png" width="523" height="251" style="width:13.839cm;height:6.639cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000051B0000027361660D7E.png" /></p>
+<ul>
+  <li>在 [4] 中，新的解释器；
+  </li>
+  <li>在 [5] 中，项目可访问的包。 这是更换解释器带来的主要区别。如果您管理多个使用不同包的项目，最好使用每个项目虚拟环境中的包。这样您就能控制所用插件的版本。因此，我们将保留虚拟环境中的解释器：
+  </li>
+</ul>
+
+<p><img src="images/100000000000051D000001E8FB1FFC91.png" width="523" height="195" style="width:13.839cm;height:5.159cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000051D000001E8FB1FFC91.png" /></p>
+<p><img src="images/10000000000005B90000017F1BC0AD9B.png" width="582" height="152" style="width:15.409cm;height:4.03cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000005B90000017F1BC0AD9B.png" /></p>
+<p>让我们进一步配置：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001720000021C50F81060.png" width="148" height="216" style="display:inline-block; margin:4px;width:3.919cm;height:5.72cm;" class="odt-zoomable" data-zoom-src="images/10000000000001720000021C50F81060.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000583000001F282BF5AE3.png" width="567" height="200" style="display:inline-block; margin:4px;width:14.99cm;height:5.29cm;" class="odt-zoomable" data-zoom-src="images/1000000000000583000001F282BF5AE3.png" /></td></tr></table>
+
+<ul>
+  <li>在 [1-2] 中，进入 IDE 的配置模式；
+  </li>
+  <li>在 [3-4] 中，配置系统选项；
+  </li>
+  <li>在 [5] 中，退出 IDE 时不进行确认；
+  </li>
+  <li>在 [6] 中，当退出 IDE 且存在由已执行代码启动的正在运行的进程时，停止该进程；
+  </li>
+  <li>在 [7] 中，当启动 IDE 时，不自动重新打开上次使用的项目。由用户自行选择项目；
+  </li>
+  <li>在 [8] 中，当用户同时管理多个项目时，每个项目都有独立的窗口；
+  </li>
+  <li>在 [9] 中，我们指定了项目的默认文件夹；
+  </li>
+</ul>
+
+<p>现在我们可以开始编写代码了。首先创建一个文件夹，用于存放我们的第一个 Python 脚本：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000041D0000017D721E4B11.png" width="421" height="152" style="display:inline-block; margin:4px;width:11.141cm;height:4.03cm;" class="odt-zoomable" data-zoom-src="images/100000000000041D0000017D721E4B11.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000021A000000A4CC322650.png" width="216" height="66" style="display:inline-block; margin:4px;width:5.71cm;height:1.739cm;" class="odt-zoomable" data-zoom-src="images/100000000000021A000000A4CC322650.png" /></td></tr></table>
+
+<ul>
+  <li>右键点击项目，然后选择 <b>[1-3]</b> 来创建文件夹；
+  </li>
+  <li>在 <b>[4] </b>中输入文件夹名称：该文件夹将创建在项目文件夹内；
+  </li>
+</ul>
+
+<p><img src="images/10000000000001F50000022825B3B21E.png" width="200" height="221" style="width:5.3cm;height:5.84cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001F50000022825B3B21E.png" /></p>
+<p>然后创建一个 Python 脚本：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003C20000020B9CC8B66E.png" width="385" height="209" style="display:inline-block; margin:4px;width:10.19cm;height:5.54cm;" class="odt-zoomable" data-zoom-src="images/10000000000003C20000020B9CC8B66E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000022C0000010D901EEBA8.png" width="223" height="108" style="display:inline-block; margin:4px;width:5.89cm;height:2.85cm;" class="odt-zoomable" data-zoom-src="images/100000000000022C0000010D901EEBA8.png" /></td></tr></table>
+
+<p>右键单击文件夹 [bases]，然后单击 <strong>[1-4]</strong>：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002FB000000FD5563B7FC.png" width="305" height="101" style="display:inline-block; margin:4px;width:8.08cm;height:2.679cm;" class="odt-zoomable" data-zoom-src="images/10000000000002FB000000FD5563B7FC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003750000025F6C95FB64.png" width="354" height="243" style="display:inline-block; margin:4px;width:9.359cm;height:6.421cm;" class="odt-zoomable" data-zoom-src="images/10000000000003750000025F6C95FB64.png" /></td></tr></table>
+
+<ul>
+  <li>这里需要提醒的是，我们已将版本控制工具Git添加到项目中。这是在创建项目时勾选了Git选项而完成的。Git可以在项目开发的各个阶段对项目进行“快照”。 在此处，[1-3] 提示我们是否要将当前正在创建的文件 [bases.py] 纳入快照。我们选择“是”[3]。 此外，我们勾选 [2]，以便在每次创建文件时自动执行此操作。稍后我们将简要回顾 Git；
+  </li>
+  <li>在 [4-5] 步骤中，脚本 [bases_01] 已创建完毕，并已准备好进行编辑；
+  </li>
+</ul>
+
+<p>让我们编写第一个脚本：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000261000000CCCCD847A9.png" width="244" height="82" style="display:inline-block; margin:4px;width:6.451cm;height:2.161cm;" class="odt-zoomable" data-zoom-src="images/1000000000000261000000CCCCD847A9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002B1000002F78DEFD05E.png" width="276" height="303" style="display:inline-block; margin:4px;width:7.29cm;height:8.029cm;" class="odt-zoomable" data-zoom-src="images/10000000000002B1000002F78DEFD05E.png" /></td></tr></table>
+
+<ul>
+  <li>第 1、3 行：注释以 # 符号开头；
+  </li>
+  <li>第 2 行：变量初始化。Python 不需要声明变量的类型；
+  </li>
+  <li>第 4 行：屏幕输出。此处使用的语法是 [format % données]，格式为：
+    <ul>
+      <li><b>格式</b>：name=%s，其中 %s 表示字符串的位置。该字符串将在表达式的 <b>[données]</b> 部分中找到；
+      </li>
+      <li><b>数据</b>：变量 <b>[nom]</b> 的值将替换格式字符串中的 %s 格式；
+      </li>
+    </ul>
+  </li>
+  <li>使用 [1-2]，可按照 Python 管理机构的建议重新格式化代码。也可以通过键盘输入 Ctrl-Alt-L 组合键；
+  </li>
+</ul>
+
+<p>从屏幕截图中可以看到，部分文本被标记为下划线。PyCharm 会报告注释和字符串中的拼写错误，并将其称为<strong>“typos”</strong>。该工具默认配置为检测英文文本。若要避免报告法语中的拼写错误，请按以下步骤操作：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000243000002049B2BB9E8.png" width="232" height="206" style="display:inline-block; margin:4px;width:6.13cm;height:5.459cm;" class="odt-zoomable" data-zoom-src="images/1000000000000243000002049B2BB9E8.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003940000031B8E28874D.png" width="366" height="318" style="display:inline-block; margin:4px;width:9.691cm;height:8.41cm;" class="odt-zoomable" data-zoom-src="images/10000000000003940000031B8E28874D.png" /></td></tr></table>
+
+<ul>
+  <li>在 [1-2] 中，配置 IDE；
+  </li>
+  <li>在 [3-6] 中，禁用编辑器的 [Proofreading] 选项；
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000248000000E8F61B6BEF.png" width="234" height="93" style="display:inline-block; margin:4px;width:6.189cm;height:2.461cm;" class="odt-zoomable" data-zoom-src="images/1000000000000248000000E8F61B6BEF.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003800000010A363A8BAB.png" width="359" height="107" style="display:inline-block; margin:4px;width:9.5cm;height:2.82cm;" class="odt-zoomable" data-zoom-src="images/10000000000003800000010A363A8BAB.png" /></td></tr></table>
+
+<p>在 [7] 中，错别字提示已消失。点击主工具栏上的 [8] 图标即可执行脚本。结果如下：</p>
+<p><img src="images/100000000000071E0000013BCAEF9188.png" width="680" height="118" style="width:17.999cm;height:3.112cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000071E0000013BCAEF9188.png" /></p>
+<ul>
+  <li>在 [1-2] 中，弹出了一个结果窗口；
+  </li>
+  <li>在 [3] 中，可以看到 [bases_01.py] 的代码已被项目虚拟环境中的 Python 解释器执行；
+  </li>
+  <li>在 [4] 中，显示了执行结果；
+  </li>
+</ul>
+
+<p>要运行本文档中的脚本，请下载代码至 URL | <a href="https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy9mNTNhOTE5ZjQzZDI3ZWI1L0VpNzRCOGJkaDNoSXR6MktmZHVTSTJ3QnYwVGtMaklnVkRjOENfX01SWHk3M2c%5FZT1UdHU5eFM&amp;id=F53A919F43D27EB5%21sc607f82e87dd4878b73d8a7ddb92236c&amp;cid=F53A919F43D27EB5"><u><span style="color: #0563c1">使用 IA 工具生成 Python 脚本</span></u></a> | （云端 OneDrive），然后在 PyCharm 中按以下步骤操作：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000131000001C7FB4D5D86.png" width="142" height="212" style="display:inline-block; margin:4px;width:3.769cm;height:5.62cm;" class="odt-zoomable" data-zoom-src="images/1000000000000131000001C7FB4D5D86.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [1-2] 中，关闭您正在处理的项目；
+  </li>
+</ul>
+
+<p><img src="images/100000000000077C000001991265138A.png" width="680" height="145" style="width:17.999cm;height:3.842cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000077C000001991265138A.png" /></p>
+<ul>
+  <li>在 [1] 中，选择 [Projects] 选项；
+  </li>
+  <li>在 [2] 窗口中，会显示最近处理过的项目列表；
+  </li>
+  <li>在 [3] 中，选择打开现有项目；
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002F50000029F80EEE621.png" width="227" height="201" style="display:inline-block; margin:4px;width:6.01cm;height:5.33cm;" class="odt-zoomable" data-zoom-src="images/10000000000002F50000029F80EEE621.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [1] 中，打开已下载的文件夹；
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004F500000491445627B1.png" width="382" height="352" style="display:inline-block; margin:4px;width:10.111cm;height:9.31cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F500000491445627B1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [1-2] 中，选择项目 PyCharm； 
+  </li>
+</ul>
+
+<p>配置该项目，使其拥有一个虚拟运行环境：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001D6000002A0FC82F3CC.png" width="141" height="201" style="display:inline-block; margin:4px;width:3.731cm;height:5.33cm;" class="odt-zoomable" data-zoom-src="images/10000000000001D6000002A0FC82F3CC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [1-2] 中，配置新项目；
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000007B20000026FB0FBB9CC.png" width="605" height="191" style="display:inline-block; margin:4px;width:16.002cm;height:5.061cm;" class="odt-zoomable" data-zoom-src="images/10000000000007B20000026FB0FBB9CC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [3-4] 中，为该项目配置解释器；
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000004EA00000275CE19B89D.png" width="378" height="189" style="display:inline-block; margin:4px;width:9.999cm;height:5.001cm;" class="odt-zoomable" data-zoom-src="images/10000000000004EA00000275CE19B89D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [5-6] 中，选择一个虚拟运行环境；
+  </li>
+</ul>
+
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000752000001C6E08AB521.png" width="559" height="135" style="display:inline-block; margin:4px;width:14.78cm;height:3.581cm;" class="odt-zoomable" data-zoom-src="images/1000000000000752000001C6E08AB521.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<ul>
+  <li>在 [7] 中，为项目配置新的 Python 解释器；
+  </li>
+</ul>
+
+<p>完成上述操作后，即可运行项目脚本：</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003330000031A128698EE.png" width="246" height="238" style="display:inline-block; margin:4px;width:6.5cm;height:6.301cm;" class="odt-zoomable" data-zoom-src="images/10000000000003330000031A128698EE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner">
+
+      <div>
+        <a href="https://stahe.github.io" target="_blank">
+          https://stahe.github.io
+        </a>
+        <br>
+        本教程由 <strong>Serge Tahé</strong> 编写，根据
+<em>知识共享 署名-非商业性使用-
+相同方式共享 3.0 未本地化版本</em>.
+      </div>
+
+    </div>
+  </div>
+
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.indexes", "navigation.expand", "toc.integrate", "navigation.top"], "search": "assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="javascripts/focus.js"></script>
+      
+    
+  </body>
+</html>
